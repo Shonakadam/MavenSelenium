@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Tracko">
+    <classes>
+      <class name="com.org.pune.MavenSelenium.TestClass"/>
+      <class name="com.org.pune.MavenSelenium.Tracko"/>
+      <class name="com.org.pune.MavenSelenium.MainTestClass"/>
+      <class name="com.org.pune.MavenSelenium.AppTest"/>
+    </classes>
+  </test> <!-- Tracko -->
+</suite> <!-- Suite -->
